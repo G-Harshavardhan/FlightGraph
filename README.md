@@ -1,1 +1,5 @@
-# FlightGraph
+FlightGraph is a graph-based airline route optimization system that models airports as nodes and flight connections as weighted edges. Each edge stores key flight attributes including the aircraft name, travel distance, ticket cost, and number of intermediate stops. This structured representation enables accurate modeling of airline networks and supports complex route calculations.
+
+The system applies Dijkstra’s algorithm to compute three optimized travel paths between any two airports: the shortest distance route, the most cost-efficient route, and the route with the minimum number of halts. By dynamically assigning weights based on user preferences, FlightGraph delivers flexible, user-centric travel solutions.
+
+This project demonstrates the practical application of graph theory, algorithmic optimization, and data structures to solve real-world transportation challenges. It serves as a foundational system for intelligent air traffic management, route planning, and logistics optimization — showcasing how computational methods can drive efficiency in modern travel infrastructure.
